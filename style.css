@@ -1,0 +1,22 @@
+
+/* navigation bar */
+.navbar-brand {
+
+    background-color: #4AAAA5;
+}
+
+.nav-link {
+        margin-right: 1em !important;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+  }
+
+html {
+    background-image: url("/images/cloudy-day.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
