@@ -12,26 +12,31 @@
     color:white;
 }
 
-.nav-link {
-        margin-right: 1em !important;
+.nav-link.custom {
+    margin-right: 1em !important;
+    font-size: 18px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.nav-link.visited {
+    margin-right: 1em !important;
+    font-size: 18px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.nav-link.custom:hover {
+    font-size: 24px;
+    font-weight: bold; 
+
+}
+
+.nav-link.custom:active {
+    background-color: orange;
 }
 
 .navbar-collapse {
     justify-content: flex-end;
   }
-
-  .sideborder {
-    border-right: 1px inset lightgray;
-    padding-right: 2px;
-}
-
-  .bg-dark .bg-dark {
-    background-color: #343a40;
-    @include media-breakpoint-up(sm) {
-        background-color: transparent;
-    }
-}
-
 
 /* content relevant to all three pages of portfolio site */
 
@@ -57,6 +62,16 @@ hr {
     border: 1px solid lightgray;
 }
 
+.footer.custom {
+        background: #666666;
+}
+
+.footer-copyright.custom {
+    color: white;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 12px;
+}
+
 
 /* About */
 
@@ -74,33 +89,65 @@ p {
     color: #898B90;
 }
 
+.profile-link {
+    color: gray;
+    font-size: 30px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.profile-link:hover {
+    font-size: 32px;
+    font-weight: bold;
+    color: orange;
+    text-decoration: none;
+}
+
 /* Contact  */
 
 label {
+        
+    color: #777777;
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
+ }
+
+
+input, textarea {
+    font-size: 18px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-
-.btn.btn-primary {
+.btn.btn-primary.custom {
     padding: 10px 30px;
     font-size: 18px;
     background: #4aaaa5;
     color: white;
 }
 
-.btn.btn-primary:hover {
+.btn.btn-primary.custom:hover {
     font-size:24px;
+}
+
+.btn.btn-primary.custom:active {
+    background-color: orange;
 }
 
 /* Portfolio */
 
-.card-img-overlay {
-    position: relative;
-}
-
 .card-title {
 
-    background-color: #4AAAA5;
+    background: #4aaaa5;
+    font-family: Georgia, Times, "Times New Roman", serif;
     text-align: center;
+    width: 100%;
+    font-size: 24px;
+    position: absolute;
+    top: 60%;
+
+
+}
+
+.card-image-overlay {
+    position: relative;
 }
