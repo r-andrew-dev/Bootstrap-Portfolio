@@ -1,9 +1,12 @@
 
 /* navigation bar */
-.navbar-brand {
-
+.navbar-brand.custom {
     background-color: #4AAAA5;
     color: white;
+}
+
+.navbar-brand.custom:hover {
+    color:white;
 }
 
 .nav-link {
@@ -13,6 +16,13 @@
 .navbar-collapse {
     justify-content: flex-end;
   }
+
+  .bg-dark .bg-dark {
+    background-color: #343a40;
+    @include media-breakpoint-up(sm) {
+        background-color: transparent;
+    }
+}
 
 
 /* content relevant to all three pages of portfolio site */
@@ -24,6 +34,17 @@ body {
 
 .container-fluid {
     background: white;
+    max-width: 95%;
+    margin: auto;
+}
+
+h2 {
+    color: #4AAAA5;
+    font-family: 
+}
+
+hr {
+    border: 1px solid lightgray;
 }
 
 /* Portfolio */
@@ -46,4 +67,10 @@ body {
     float: left;
     width: 250px;
     height: auto;
+}
+
+/* Contact  */
+
+.btn.btn-primary {
+    background-color: #4AAAA5;
 }
