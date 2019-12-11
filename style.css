@@ -3,6 +3,7 @@
 .navbar-brand {
 
     background-color: #4AAAA5;
+    color: white;
 }
 
 .nav-link {
@@ -13,10 +14,36 @@
     justify-content: flex-end;
   }
 
-html {
-    background-image: url("/images/cloudy-day.png");
-    background-size: cover;
-    background-position: center;
-    position: relative;
 
+/* content relevant to all three pages of portfolio site */
+
+body {
+    background: url("images/cloudy-day.png");
+    background-size: cover;
+}
+
+.container-fluid {
+    background: white;
+}
+
+/* Portfolio */
+.card-img-overlay {
+    position: relative;
+}
+
+.card-title {
+
+    background-color: #4AAAA5;
+    text-align: center;
+
+
+}
+
+/* About */
+
+.img-thumbnail {
+
+    float: left;
+    width: 250px;
+    height: auto;
 }
