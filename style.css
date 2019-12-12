@@ -72,6 +72,11 @@ hr {
     font-size: 12px;
 }
 
+.navbar-toggler-icon.custom {
+ 
+    background-color: #4aaaa5;
+}
+
 
 /* About */
 
